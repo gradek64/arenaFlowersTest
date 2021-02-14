@@ -1,0 +1,27 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babelMe": "babel ./scripts --out-file ./build/script-compiled.js --source-maps inline",
+    "browserifyMe": "browserify -p esmify ./build/script-compiled.js -o bundle.js",
+    "babelMe_and_browserifyMe": "npm run babelMe && npm run browserifyMe",
+    "serve":"http-server ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "browserify": "^17.0.0",
+    "whatwg-fetch": "^3.5.0",
+    "promise-polyfill": "8.2.0",
+    "esmify": "^2.1.1"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
