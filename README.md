@@ -1,6 +1,6 @@
 #  Arena Flowers Test
 
-Test for Arena Flowers.
+test for Arena Flowers.
 
 ## Installation
 
@@ -23,9 +23,9 @@ just run script that creates [country/or partial_name].json file
 node requestAndSaveCountry.js united
 ```
 
-### client
+### client => /front-end
 
-1. run local server and visit 
+1. run local server 
 
 ```bash
 npm run serve
@@ -43,8 +43,6 @@ http://127.0.0.1:8080/
 npm run babelMe_and_browserifyMe
 ```
 
-## Contributing
-Pull requests are welcome.
+## Info
+Beware design is really basic :)
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)

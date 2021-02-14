@@ -1,3 +1,4 @@
+//defer makes sure those are accessible 
 const submitButton = document.querySelector('button[type="submit"]');
 const findCountryInput = document.querySelector('input.findCountry');
 const loadingStatus = document.querySelector('p.loading');

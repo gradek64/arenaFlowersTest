@@ -6,6 +6,7 @@ require("whatwg-fetch");
 require("promise-polyfill/src/polyfill");
 "use strict";
 
+//defer make sure those are accessible 
 var submitButton = document.querySelector('button[type="submit"]');
 var findCountryInput = document.querySelector('input.findCountry');
 var loadingStatus = document.querySelector('p.loading');
